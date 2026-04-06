@@ -33,7 +33,7 @@ fn main() {
                 "-o",
                 "BatchMode=yes",
                 "-o",
-                "ConnectTimeout=1",
+                "ConnectTimeout=5",
                 "-o",
                 "StrictHostKeyChecking=no",
                 &ssh_target,
